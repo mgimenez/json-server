@@ -1,0 +1,30 @@
+.product-item {
+    border: solid 1px #ccc;
+    padding: 20px;
+
+    &:nth-child(odd) {
+        background-color: #ccc;
+    }
+
+    & + .product-item {
+        border-top: none;
+    }
+
+    .product-item__name {
+        font-size: 22px;
+    }
+    .product-item__category {
+        color: #999;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .product-item__price {
+        color: #f35;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .product-item__btn-edit {
+        margin: 10px 10px 0 0;
+    }
+}

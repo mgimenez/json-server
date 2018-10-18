@@ -1,0 +1,26 @@
+body {
+  background: #dea;
+  font-family: Arial;
+  margin: 0;
+
+  p {
+    margin: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+      list-style: none;
+  }
+
+  .app-btn {
+      text-decoration: none;
+      color: #fff;
+      background-color: #dea;
+      padding: 10px;
+      display: inline-block;
+  }
+}
