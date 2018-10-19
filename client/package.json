@@ -26,5 +26,8 @@
     "style-loader": "^0.18.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "react-modal": "^3.6.1"
   }
 }

@@ -13,10 +13,11 @@ class ProductList extends Component {
     render() {
         return <section className="product-list">
             <h2 className="product-list__title">Products</h2>
+            <a href="#" onClick={() => this.props.addProd()}>Add product</a>
             <ul>
                 {
                     this.props.products.map((item, index) => {
-                        return <ProductItem key={index} product={item} removeProd={this.props.removeProd} editProd={this.props.editProd} />
+                        return <ProductItem key={index} product={item} removeProd={this.props.removeProd} editProd={this.props.editProd} modalIsOpen={this.props.modalIsOpen} />
                     })
                 }
             </ul>
